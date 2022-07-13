@@ -1,0 +1,21 @@
+1) Install Quickbooks
+2) Download and install Quickbooks WebConnector https://developer.intuit.com/app/developer/qbdesktop/docs/get-started/get-started-with-quickbooks-web-connector
+3) Install Extractor. Install it as usual Webservice (you should install Visual Studio also):
+    1.  Create new virtual directory in IIS
+    2.  Open the Webservice in Visual Studio
+	3.  Go to Build
+	4.  Publish website
+	5.  Publish to Local IIS 
+	  Publish Method -> File System
+	  Target location -> Select directory on webserver
+	  (you can use Ftp to deploy webservice as well )
+	  
+	6.  Choose the same virtual directory created in Step-1
+	
+4) You can find the HTTPWebService.qwc file in ..\WCWebservice2 folder. Simply double click on this file. Then it will appear in WebConnector.
+	When WebConnector will you ask for password, type word "password".
+
+5) When Quickbooks will ask to grand rights, grand all needed rights.
+  
+	
+
